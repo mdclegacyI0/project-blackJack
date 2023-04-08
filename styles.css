@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:ital,wght@0,400;0,700;1,400&family=Play&display=swap");
+
+html,
+body {
+  color: #69eb28;
+  font-family: "Play", serif;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Play", serif;
+  margin: 0;
+}
+
+header {
+  background: #69eb28;
+  border-bottom: 3px solid #305d0f;
+  color: #fffafb;
+}
+
+header h1 {
+  padding: 25px;
+}
+
+header h1 span {
+  font-family: "Dancing Script", serif;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+header a,
+a:hover {
+  color: #2e02f4;
+}
+
+main {
+  margin: 25px auto;
+  width: 80%;
+}
+
+button:hover {
+  cursor: grab;
+}
+.error {
+  border: 3px solid #aa5042;
+  padding: 25px;
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type+"text/css" href="styles.css"/>
+    <script defer src="main.js"></script>
+    <title>Black Jack</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        Black Jack Game
+        <span>
+          From <a href="https://deckofcardsapi.com/">Deck Of Cards</a>
+        </span>
+      </h1>
+    </header>
+
+    <main>
+      <h2>Dealer's Hand:<span id="dealer-count"></span>"></h2>
+      <div class="dealer-cards"></div>
+
+      <h2>My Hand:<span id="my-count"></span></h2>
+      <div class="my-cards"></div>
+
+      <br />
+      <button type="button" class="hit">Hit</button>
+      <button type="button" id="stay">Stay</button>
+      <br /><br /><br /><br /><br /><br />
+      <button type="button" class="deal">Deal</button>
+      <section style="display: none" class="error"></section>
+    </main>
+  </body>
+</html>
